@@ -38,7 +38,14 @@ body{
    grid-template-columns: 25% 25% 25% 25%;
 }
 
+img#logo{
+   grid-column: span 3;
+   width: 100%;
+}
 
+nav.horizontal, footer{
+   grid-column: span 4;
+}
 
 
 /* Horizontal Navigation List Styles */
