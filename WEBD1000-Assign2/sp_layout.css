@@ -27,9 +27,16 @@ body{
    margin-right: auto;
 }
 
+img{
+   display: block;
+}
+
 /* CSS Grid Styles */
 
-
+body{
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
 
 
 
